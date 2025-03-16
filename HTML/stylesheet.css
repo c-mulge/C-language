@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#cont{
+    height: 40px;
+    background-color: rgb(42, 42, 42);
+    border-width: 2px;
+    border-color: aqua;
+}
+
+#logo{
+    color: orange;
+    font-size: 25px;
+    margin-right: 100px;
+    text-decoration: none;
+}
+
+.detail{
+    color: whitesmoke;
+    width: 80px;
+    margin-right: 200px;
+    text-decoration: none;
+}
+
+.for{
+
+}
+.but{
+    background-color: orange;
+    color: whitesmoke;
+}

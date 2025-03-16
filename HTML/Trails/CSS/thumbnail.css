@@ -1,0 +1,20 @@
+.thumbnail
+            { 
+                width:200px;
+                border-radius: 7px;
+            }
+            .thumbnail1
+            { 
+                width:200px;
+                height: 200px;
+                object-position: center;
+                object-fit: cover;
+            }
+            .thumbnail2
+            { 
+                width: 200px;
+                height: 200px;
+                border-radius: 500px;
+                object-position: center;
+                object-fit: cover;
+            }

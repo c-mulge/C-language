@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+          /* CSS code for mobile-friendly styles */
+          @media screen and  (max-width: 768px) 
+          {
+            .container {
+              max-width: 400px;
+              margin: 0 auto;
+              padding: 0 20px;
+              line-height: 30px;
+            }
+            
+            .contact-item p {
+              font-size: 8px;
+              margin: 0;
+              line-height: 10px;
+              display: flex;
+            }
+
+            .hero h1 {
+              font-size: 32px;
+              margin-bottom: 10px;
+              line-height: 50px;
+            }
+  
+            .hero p {
+              font-size: 15px;
+              margin-bottom: 40px;
+            }
+
+            .cta-button {
+              display: inline-block;
+              background-color: #ffcc00;
+              color: #222;
+              padding: 6px 16px;
+              text-decoration: none;
+              font-weight: bold;
+              font-size: 15px;
+              border-radius: 4px;
+              transition: background-color 0.3s;
+            }
+
+            .logo img {
+    height: 50px;
+    width: auto;
+    margin-left: 0;
+    position: static; /* Reset the position */
+      text-align: center; /* Center the image */
+  }
+  
+          }
+  
+          @media (max-width: 480px) {
+            .container {
+              max-width: 400px;
+              margin: 0 auto;
+              padding: 0 20px;
+              line-height: 30px;
+            }
+            
+            .contact-item p {
+              font-size: 8px;
+              margin: 0;
+              line-height: 10px;
+              display: flex;
+            }
+
+            .hero h1 {
+              font-size: 32px;
+              margin-bottom: 10px;
+              line-height: 50px;
+            }
+  
+            .hero p {
+              font-size: 15px;
+              margin-bottom: 40px;
+            }
+
+            .cta-button {
+              display: inline-block;
+              background-color: #ffcc00;
+              color: #222;
+              padding: 6px 16px;
+              text-decoration: none;
+              font-weight: bold;
+              font-size: 15px;
+              border-radius: 4px;
+              transition: background-color 0.3s;
+            }
+          }
+      </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+              <nav>
+                <div class="logo">
+                <a href="pract1.html">
+                  <img src="images\white logo.png" alt="Shri Balaji Automotive" />
+                </a>
+                </div>
+                <ul class="menu">
+                  <li><a href="pract1.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+
+          
+          <section class="hero">
+            <div class="container">
+              <h1>Welcome to Shri Balaji Automotive</h1>
+              <p>Experience Excellence in Auto Care</p>
+              <a href="contact.html" class="cta-button">Schedule an Appointment</a>
+            </div>
+          </section>
+
+          
+          
+        
+
+          
+          
+
+          
+          <section class="testimonials">
+            <div class="container">
+              <h2>Testimonials</h2>
+              <div class="testimonial-slider">
+                <div class="testimonial-item">
+                  <div class="testimonial-content">
+                    <p>"Shri Balaji Automotive provided excellent service for my car. Their technicians were knowledgeable and professional. I highly recommend them!"</p>
+                  </div>
+                  <div class="testimonial-author">
+                    <img src="images\channel-1.jpeg" alt="Client Avatar" />
+                    <h4>John Doe</h4>
+                  </div>
+                </div>
+                <div class="testimonial-item">
+                  <div class="testimonial-content">
+                    <p>"I had a great experience at Shri Balaji Automotive. They fixed the electrical issues in my car quickly and efficiently. I'm impressed!"</p>
+                  </div>
+                  <div class="testimonial-author">
+                    <img src="images\channel-2.jpeg" alt="Client Avatar" />
+                    <h4>Jane Smith</h4>
+                  </div>
+                </div>
+                <!-- Add more testimonial items as needed -->
+              </div>
+            </div>
+          </section>
+          
+          
+          
+          <section class="contact">
+            <div class="container">
+              <h2>Contact Us</h2>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>Dudulagaon Phata, Moshi-Alandi Road, Pune</p>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <p>+1 234 567 890</p>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <p>info@carmasters.com</p>
+                </div>
+              </div>
+              <form class="contact-form" method="post" action="contact.php">
+                <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+                <button type="submit" class=".contact-form button">Send Message</button>
+              </form>
+            </div>
+          </section>
+          
+          
+          
+          <footer class="footer">
+            <div class="container">
+              <div class="footer-content">
+                <div class="footer-links">
+                  <ul>
+                    <li><a href="pract1.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-bottom">
+                <p>&copy; 2023 Shri Balaji Automotive. All rights reserved.</p>
+              </div>
+            </div>
+          </footer>
+          
+          
+          
+    </body>
+</html>
+
+
+  

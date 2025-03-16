@@ -1,0 +1,338 @@
+.search-bar
+                {
+                    font-size: 16px;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: rgb(200, 200, 200);
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border-radius: 8px;
+                }
+                .search-bar2
+                {
+                    font-size: 16px;
+                    width: 500px;
+                    border: none;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border-radius: 30px;
+                    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+                    margin-top: 20px;
+                   
+                }
+                .email
+                {
+                    font-family: arial;
+                    font-size: 12px;
+                    margin-bottom: 7px;
+                    color: grey;
+                }
+                .search-bar3
+                {
+                    border-radius: 4px;
+                    border-style: solid;
+                    border-width: 2px;
+                    width: 295px;
+                    border-color: rgb(163, 163, 163);
+                    margin-bottom: 0px;
+                    padding-top: 7px;
+                }
+                .tag
+                {
+                    font-family: arial;
+                    font-size: 12px;
+                    color: grey;
+                    margin-bottom: 14px;
+                    margin-top: 14px;
+                }
+                .button
+                {
+                    background-color: rgb(14, 138, 215);
+                    color: white;
+                    font-family: arial;
+                    border:none;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-left: 110px;
+                    padding-right: 110px;
+                    border-radius: 20px;
+                    font-size: 15px;
+                    margin-top: 0px;
+                }
+                .profile-picture {
+                    width: 50px;
+                    height: 50px;
+                    object-fit: cover;
+                    border-radius: 25px;
+                    vertical-align: middle;
+                    margin-right: 5px;
+}
+
+                .text-box {
+                    font-size: 18px;
+                    border: none;
+                    width: 300px;
+                    vertical-align: middle;
+                    margin-left: 10px;
+}
+
+                .tweet-button {
+                    font-family: Arial;
+                    background-color: rgb(29, 155, 240);
+                    color: white;
+                    border: none;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    border-radius: 30px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    vertical-align: middle;
+}
+.google-logo
+{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.search-bar4
+                {
+                    font-size: 16px;
+                    width: 500px;
+                    border: none;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border-radius: 30px;
+                    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+                    margin-top: 10px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                   
+                }
+
+.first-name
+{
+                    font-size: 16px;
+                    border-width: 1.5px;
+                    border-style: solid;
+                    border-color: rgb(200, 200, 200);
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border-radius: 8px;
+                    width: 130px;
+}
+
+.last-name
+{
+                    font-size: 16px;
+                    border-width: 1.5px;
+                    width: 130px;
+                    border-style: solid;
+                    border-color: rgb(200, 200, 200);
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border-radius: 8px;
+}
+
+.email1
+{
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    border-width: 1.5px;
+    width: 300px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+}
+
+.button2
+{
+    margin-top: 10px;
+    width: 335px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(40, 108, 253);
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    margin-bottom: 30px;
+}
+
+.ride
+{
+    font-family: arial;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.location
+{
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 3px;
+    width: 300px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    font-size: 13px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.desti
+{
+    background-color: rgb(236, 236, 236);
+    border: none;
+    border-radius: 3px;
+    width: 300px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.req
+{
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.later
+{
+    background-color: rgb(236, 236, 236);
+    color: black;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+
+.div
+{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.div2
+{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 60px;
+}
+
+.example1
+{
+    font-family: arial;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.div3
+{
+    border-style: solid;
+    border-width: 1px;
+    width: 300px;
+    color: gray;
+    margin-top: 30px;
+}
+
+.example2
+{
+    font-family: arial;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.div4
+{
+    background-color: rgb(20, 20, 20);
+    width: 260px;
+}
+
+.example3
+{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    color: whitesmoke;
+    padding-top: 12px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.example4
+{
+    font-family: Arial;
+    font-size: 10px;
+    color: rgb(177, 177, 177);
+    padding-top: 8px;
+    margin-top: 0px;
+    padding-bottom: 12px;
+    width: 220px;
+    padding-left: 20px;
+    opacity: 0.8;
+}
+
+.div5
+{
+    border-radius: 6px;
+    border-style: solid;
+    width: 480px;
+    border:none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.div6
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    display: inline-block;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+            font-family: "Josefin Sans", sans-serif;
+        }
+
+        .container {
+            width: 500px;
+            border: 3px solid blueviolet;
+            margin: auto;
+            background-color: rgb(208, 235, 207);
+        }
+
+        .items {
+            border: 3px solid gray;
+            /* margin: 12px 3px; */
+            margin-top: 0;
+            margin-bottom: 12px;
+            margin-right: 2px;
+            margin-left: 6px;
+            padding: 12px 3px;
+            background-color: rgb(230, 204, 204);
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+        }
+
+        #books {
+            /* float: left; */
+            clear: left;
+            width: 100%;
+        }
+
+        p,
+        h3 {
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            /* padding: 0; */
+            padding-top: 10px;
+            padding-bottom: 5px;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <div id="fruits" class="items">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                reprehenderit maxime labore placeat nobis nam? Placeat quam ad sint, tenetur quo dolor quidem enim in
+                iste exercitationem fugit illum quisquam?</p>
+        </div>
+        <div id="computer" class="items">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                reprehenderit maxime labore placeat nobis nam? Placeat quam ad sint, tenetur quo dolor quidem enim in
+                iste exercitationem fugit illum quisquam?</p>
+        </div>
+        <div id="books" class="items">
+            <h3>Books</h3>
+            <p id="bookspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                reprehenderit maxime labore placeat nobis nam? Placeat quam ad sint, tenetur quo dolor quidem enim in
+                iste exercitationem fugit illum quisquam?</p>
+        </div>
+    </div>
+</body>
+
+</html>

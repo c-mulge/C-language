@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .banner {
+            height: 20%;
+            background-color: #4CAF50;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .content {
+            display: flex;
+            height: 50%;
+        }
+        .column1, .column2 {
+            width: 40%;
+            padding: 10px;
+        }
+        .column1 {
+            background-color: #f2f2f2;
+        }
+        .column2 {
+            background-color: #e6e6e6;
+        }
+        .footer {
+            height: 25%;
+            background-color: #333;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .column2 a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .column2 a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="logo.png" alt="Website Logo" style="height: 60px; margin-right: 10px;">
+        <span>Website Name</span>
+    </div>
+    <div class="content">
+        <div class="column1">
+            <h2>Student Profile</h2>
+            <p><strong>Roll Number:</strong> 12345</p>
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Contact:</strong> +123456789</p>
+            <p><strong>Photo:</strong></p>
+            <img src="student_photo.jpg" alt="Student Photo" style="width: 100px; height: 100px;">
+            <p><strong>Class:</strong> 10th Grade</p>
+        </div>
+        <div class="column2">
+            <h2>Details</h2>
+            <p><strong>Area of Interest:</strong> Web Development</p>
+            <p><strong>Subjects:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Topics:</strong> Responsive Design, JavaScript Events</p>
+            <a href="read_more.php">Read More</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2025 Company Name. All rights reserved.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+p{font-family: arial;margin-top: 0;
+    margin-bottom: 0;}
+    .new
+    {
+        
+        font-weight: bold;
+        color: rgb(233, 157, 15);
+        margin-bottom: 0;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .mac{
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        
+    }
+    .sup{
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .from{
+        margin-top: 10;
+        margin-bottom: 10;
+        font-size: 12px;
+        color: rgb(52, 52, 52);
+        text-align: center;
+    }
+    .buy{
+        background-color: rgb(6, 95, 212);
+        border-style: none;
+        color: whitesmoke;
+        padding-bottom: 7px;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 7px;
+        border-radius: 18px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-left: 46%;
+    }
+    .price {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+
+  .currency {
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+  }
+
+  .change {
+    color: rgb(24, 128, 56);
+    margin-bottom: 8px;
+  }
+
+  .after-hours {
+    color: rgb(100, 100, 100);
+  }
+
+  .after-hours-change {
+    color: rgb(235, 39, 39);
+  }
+  .tweet-header {
+    margin-bottom: 5px;
+  }
+
+  .tweet-author {
+    font-weight: bold;
+  }
+
+  .tweet-info {
+    color: rgb(100, 100, 100);
+  }
+
+  .tweet {
+    width: 600px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .twitter-handle {
+    color: rgb(29, 155, 240);
+  }

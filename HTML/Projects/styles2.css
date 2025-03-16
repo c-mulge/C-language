@@ -1,0 +1,180 @@
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Fixed Header Styles */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 10px;
+  z-index: 9999;
+}
+
+.container.logo {
+  margin-top: 70px; /* Add margin-top to adjust content below fixed header */
+}
+
+.image2
+{
+  width: 28%;
+  margin-bottom: 20px;
+}
+
+/* Hero Section */
+section.hero {
+  height: 200px;
+  background-color: #f2f2f2;
+  margin-bottom: 30px;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #0069d9;
+}
+
+/* Introduction Section */
+p.p1 {
+  margin-bottom: 10px;
+}
+
+p.p2 {
+  margin-bottom: 30px;
+}
+
+/* Features Section */
+.container1 {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.customer-name {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Pricing Section */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Contact Section */
+.container3 {
+  background-color: #fff;
+  padding: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 120px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+/* Footer Section */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
