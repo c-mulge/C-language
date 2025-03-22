@@ -23,18 +23,6 @@ void list(char *dn, char op)
  switch(op)
  {
  case 'f':
-
-/*Returns a pointer to a struct dirent object, which represents the next entry in the directory.
-Each call to readdir() returns the next entry until all entries are read.
-
-struct dirent {
-    ino_t          d_ino;       // Inode number
-    off_t          d_off;       // Offset to the next dirent
-    unsigned short d_reclen;    // Length of this record
-    unsigned char  d_type;      // Type of file (DT_REG, DT_DIR, etc.)
-    char           d_name[];    // Null-terminated file name
-}; */
-
   while(entry=readdir(dp))
   {
    if(entry->d_type==DT_REG)
