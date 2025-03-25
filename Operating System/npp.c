@@ -46,18 +46,21 @@ void sort() {
     for (NODE *p = first; p && p->next; p = p->next)
         for (NODE *q = p->next; q; q = q->next)
             if (p->at > q->at) {
-                NODE temp = *p; *p = *q; *q = temp;
-                q->next = p->next; p->next = q;
+                NODE temp = *p; 
+                *p = *q; 
+                *q = temp;
+                q->next = p->next;
+                p->next = q;
             }
 }
 
 NODE *get_highest_priority() {
     NODE *p = first, *min_p = NULL;
-    int min_priority = 9999;
+    int min = 9999;
 
     while (p) {
-        if (p->at <= time && p->bt1 > 0 && p->p < min_priority) {
-            min_priority = p->p;
+        if (p->at <= time && p->bt1 > 0 && p->p < min) {
+            min = p->p;
             min_p = p;
         }
         p = p->next;

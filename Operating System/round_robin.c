@@ -44,8 +44,11 @@ void sort() {
     for (NODE *p = first; p && p->next; p = p->next)
         for (NODE *q = p->next; q; q = q->next)
             if (p->at > q->at) {
-                NODE temp = *p; *p = *q; *q = temp;
-                q->next = p->next; p->next = q;
+                NODE temp = *p; 
+                *p = *q; 
+                *q = temp;
+                q->next = p->next; 
+                p->next = q;
             }
 }
 
