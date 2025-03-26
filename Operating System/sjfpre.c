@@ -39,14 +39,17 @@ void print_output() {
 }
 
 void sort() {
-    for (NODE *p = first; p && p->next; p = p->next)
-        for (NODE *q = p->next; q; q = q->next)
-            if (p->at > q->at) {
-                NODE temp = *p;
-                *p = *q;
-                *q = temp;
-                p->next = temp.next;
+    for (NODE *p = first; p; p = p->next) {
+        for (NODE *q = p->next; q; q = q->next) {
+            if (p->at > q->at) { // Swap pointers instead of copying data
+                char temp[20]; strcpy(temp, p->pname);
+                strcpy(p->pname, q->pname); strcpy(q->pname, temp);
+                int t = p->at; p->at = q->at; q->at = t;
+                t = p->bt; p->bt = q->bt; q->bt = t;
+                t = p->bt1; p->bt1 = q->bt1; q->bt1 = t;
             }
+        }
+    }
 }
 
 NODE *get_sjf() {

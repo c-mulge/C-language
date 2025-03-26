@@ -20,8 +20,10 @@ void accept_info() {
         scanf("%s%d%d", p->pname, &p->at, &p->bt);
         p->bt1 = p->bt;
         p->next = NULL;
-        if (!first) first = p;
-        else last->next = p;
+        if (!first) 
+            first = p;
+        else 
+            last->next = p;
         last = p;
     }
 }
