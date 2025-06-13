@@ -9,11 +9,9 @@
 
 void list(char *dn, char op)
 {
- DIR *dp;
+ DIR *dp= opendir(dn);;
  struct dirent *entry;
  int dc=0,fc=0;
-
- dp = opendir(dn);
  if(dp==NULL)
  {
   printf("Dir %s not found.\n",dn);
